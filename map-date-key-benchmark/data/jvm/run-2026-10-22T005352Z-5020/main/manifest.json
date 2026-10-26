@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "run_id": "40f161149116432c8e4226c624c34679",
+  "started_at": "2026-10-22T00:53:52.815139+00:00",
+  "experiment": "map-date-key-benchmark",
+  "command": [
+    "run.py",
+    "--mode",
+    "jvm",
+    "--versions",
+    "trie,trie-hashed",
+    "--ns",
+    "1000,2000,4000,8000,16000,32000,64000",
+    "--max-n",
+    "trie=32000",
+    "--processes",
+    "3",
+    "--warmups",
+    "2",
+    "--iterations",
+    "5",
+    "--driver-memory",
+    "4g",
+    "--timeout",
+    "3600",
+    "--run-dir",
+    "data/jvm/run-2026-10-22T005352Z-5020/main"
+  ],
+  "working_directory": "~/Thesis/experiments/map-date-key-benchmark",
+  "options": {
+    "mode": "jvm",
+    "versions": [
+      "trie",
+      "trie-hashed"
+    ],
+    "ns": [
+      1000,
+      2000,
+      4000,
+      8000,
+      16000,
+      32000,
+      64000
+    ],
+    "max_n": {
+      "trie": 32000
+    },
+    "processes": 3,
+    "warmups": 2,
+    "iterations": 5,
+    "driver_memory": "4g",
+    "timeout": 3600
+  },
+  "query": "queries/size.xq.template",
+  "versions": {
+    "trie": "04b193dc9c19623e3dae95efb0ca59de39b72670",
+    "trie-hashed": "bc9593196679b597f05a508f9a83e19da2330f7d"
+  },
+  "jar_sha256": {
+    "trie": "2347a2edb2eb9c3a4adb3e2613bf73e6a89e3cc25a2d24d2b6ed21da0c193475",
+    "trie-hashed": "b0ded8c99bf71867b7463db26172c4c6e4077ef8b52eee9f03c8e72aebf800d8"
+  },
+  "harness_sha256": "98cdb6b874a44bbc9d8c054196ef8a2aebddf0963b74fe847e72679b81e74eb7",
+  "source_sha256": {
+    "query.template": "697d18a5a4dad7ca9f62225df748d626b8764b1f58132fc978f8f5341d167efe",
+    "run.py": "2004e3439efc7a4d7c6f31bb66d46b228be084ec782fa8d9b9c40f9b1523546d",
+    "versions.csv": "6e084ede4c6247a075bb35a080afe73e0b4c286d1089fdd4247a23e0b9a0cbec",
+    "benchkit.py": "60bc8d69b304802083d149c526abf8eee287a331115cbd78462ea7953695b945",
+    "runner.py": "bcf791d843e04b337cacfbe2ecc3e89ca55ee9df18be8a921940f8310c153ae0",
+    "recording.py": "b331c9bb21ef9fcbe101f0b7c9ffb0c575bd293f44317c0a5799c16084ef709a",
+    "analysis.py": "b1bd097f20509b96faeae7485d262dc45e3f505b477cff2d7fc8b762ea499b90",
+    "QueryBench.java": "9de2f73ed6f6f451d9aba9a3cdcc2a3abd29f4db8b6006b2e5df05c5b7bbb270"
+  },
+  "environment": {
+    "date": "2026-10-22",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "cpu": "Apple M3",
+    "memory_bytes": "25769803776",
+    "java_home": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home",
+    "java": [
+      "openjdk version \"17.0.20.1\" 2026-08-18",
+      "OpenJDK Runtime Environment Temurin-17.0.20.1+1 (build 17.0.20.1+1)"
+    ],
+    "spark_submit": "4.2.0"
+  }
+}

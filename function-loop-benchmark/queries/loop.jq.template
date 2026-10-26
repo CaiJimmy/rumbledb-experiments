@@ -1,0 +1,4 @@
+declare function local:f($x as integer, $d as integer) as integer {
+  if ($d gt 0) then local:f($x, $d - 1) else $x * 2 + 1
+};
+sum(for $i in 1 to {n} return local:f($i, 0))

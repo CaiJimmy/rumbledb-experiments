@@ -1,0 +1,5 @@
+name,commit,description
+layered,0897c0cd44b694f89eb4b5bae8979461092a0f78,parent of #1771: layered maps without compaction
+compacted-initial,753e669ef9d30f5be8368da1909d22612aeb9d36,#1771: cached size and compaction after 32 layers
+compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,master immediately before #1975: compacted maps with function-call fixes #1941-#1943
+trie,04b193dc9c19623e3dae95efb0ca59de39b72670,#1975 merged on master: persistent hash tries

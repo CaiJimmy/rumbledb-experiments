@@ -1,0 +1,15 @@
+# Build outputs: the RumbleDB jars and their extracted sources, recreated by build.sh
+/*/jars/
+/*/build/
+/benchkit/target/
+
+.DS_Store
+__pycache__/
+
+# Console output of run-overnight.sh
+/run-overnight-*.log
+
+# Scratch files of the language-server benchmark (server working directory, generated workloads)
+/lsp-benchmark/data/server-cwd/
+/lsp-benchmark/data/work/
+/lsp-benchmark/data/probe/

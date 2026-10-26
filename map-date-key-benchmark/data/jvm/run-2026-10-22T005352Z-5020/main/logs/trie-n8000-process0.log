@@ -1,0 +1,21 @@
+BENCH {"phase": "setup", "iteration": 0, "seconds": 1.468640, "result": "java 17.0.20.1 (Eclipse Adoptium), spark 4.2.0, max heap 4096 MB"}
+BENCH {"phase": "warmup", "iteration": 0, "seconds": 1.662808, "result": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>8000", "allocated_bytes": 341862424}
+BENCH {"phase": "warmup", "iteration": 1, "seconds": 1.232731, "result": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>8000", "allocated_bytes": 257193856}
+BENCH {"phase": "measure", "iteration": 0, "seconds": 1.274469, "result": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>8000", "allocated_bytes": 257960504}
+BENCH {"phase": "measure", "iteration": 1, "seconds": 1.241479, "result": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>8000", "allocated_bytes": 257784416}
+BENCH {"phase": "measure", "iteration": 2, "seconds": 1.192842, "result": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>8000", "allocated_bytes": 257784400}
+BENCH {"phase": "measure", "iteration": 3, "seconds": 1.192253, "result": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>8000", "allocated_bytes": 257777504}
+BENCH {"phase": "measure", "iteration": 4, "seconds": 1.266515, "result": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>8000", "allocated_bytes": 257777456}
+
+--- stderr ---
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/10/22 02:54:14 WARN Utils: Your hostname, localhost, resolves to a loopback address: 127.0.0.1; using 192.168.1.104 instead (on interface en0)
+26/10/22 02:54:14 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+26/10/22 02:54:15 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/10/22 02:54:15 INFO HiveConf: Found configuration file null
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/10/22 02:54:15 INFO SparkContext: Running Spark version 4.2.0
+26/10/22 02:54:15 INFO SparkContext: OS info Mac OS X, 27.0.1, aarch64
+26/10/22 02:54:15 INFO SparkContext: Java version 17.0.20.1+1
+Setting Spark log level to "OFF".

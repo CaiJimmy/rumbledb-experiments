@@ -1,0 +1,21 @@
+BENCH {"phase": "setup", "iteration": 0, "seconds": 1.366875, "result": "java 17.0.20.1 (Eclipse Adoptium), spark 4.2.0, max heap 12288 MB"}
+BENCH {"phase": "warmup", "iteration": 0, "seconds": 0.436904, "result": "10000200000", "allocated_bytes": 268756936}
+BENCH {"phase": "warmup", "iteration": 1, "seconds": 0.087200, "result": "10000200000", "allocated_bytes": 175003128}
+BENCH {"phase": "measure", "iteration": 0, "seconds": 0.073070, "result": "10000200000", "allocated_bytes": 174245944}
+BENCH {"phase": "measure", "iteration": 1, "seconds": 0.043701, "result": "10000200000", "allocated_bytes": 171802808}
+BENCH {"phase": "measure", "iteration": 2, "seconds": 0.050879, "result": "10000200000", "allocated_bytes": 172559248}
+BENCH {"phase": "measure", "iteration": 3, "seconds": 0.040952, "result": "10000200000", "allocated_bytes": 171813472}
+BENCH {"phase": "measure", "iteration": 4, "seconds": 0.037749, "result": "10000200000", "allocated_bytes": 171799640}
+
+--- stderr ---
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/10/22 07:51:44 WARN Utils: Your hostname, localhost, resolves to a loopback address: 127.0.0.1; using 192.168.1.104 instead (on interface en0)
+26/10/22 07:51:44 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+26/10/22 07:51:44 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/10/22 07:51:44 INFO HiveConf: Found configuration file null
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/10/22 07:51:45 INFO SparkContext: Running Spark version 4.2.0
+26/10/22 07:51:45 INFO SparkContext: OS info Mac OS X, 27.0.1, aarch64
+26/10/22 07:51:45 INFO SparkContext: Java version 17.0.20.1+1
+Setting Spark log level to "OFF".

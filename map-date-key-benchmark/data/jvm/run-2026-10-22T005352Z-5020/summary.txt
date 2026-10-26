@@ -1,0 +1,21 @@
+Runtime of the measured JVMs: java 17.0.20.1 (Eclipse Adoptium), spark 4.2.0, max heap 4096 MB
+
+== jvm mode: median seconds, query only; (JVM count, spread = (max - min) / median)
+        n                        trie                 trie-hashed
+     1000      0.0437 s ( 3,   3%)      0.0222 s ( 3,   8%)
+     2000      0.1153 s ( 3,  15%)      0.0329 s ( 3,   8%)
+     4000      0.4066 s ( 3,  10%)      0.0539 s ( 3,  14%)
+     8000      1.2415 s ( 3,   8%)      0.0668 s ( 3,  23%)
+    16000      4.1908 s ( 3,   1%)      0.1076 s ( 3,   7%)
+    32000     15.7474 s ( 3,   1%)      0.2004 s ( 3,   3%)
+    64000                           -      0.4018 s ( 3,   2%)
+
+== jvm mode: median MB allocated; (JVM count, spread = (max - min) / median)
+        n                        trie                 trie-hashed
+     1000     37.4290 MB( 3,   1%)     37.2571 MB( 3,   0%)
+     2000     68.5611 MB( 3,   1%)     68.7619 MB( 3,   0%)
+     4000    131.3914 MB( 3,   0%)    131.8013 MB( 3,   0%)
+     8000    257.4205 MB( 3,   0%)    255.6594 MB( 3,   0%)
+    16000    510.0015 MB( 3,   0%)    505.7475 MB( 3,   1%)
+    32000   1014.4917 MB( 3,   0%)   1008.2743 MB( 3,   1%)
+    64000                           -   2013.6214 MB( 3,   1%)

@@ -1,0 +1,2 @@
+xquery version "3.1";
+map:size(map:merge(for $i in 1 to {n} return map { $i : $i }))

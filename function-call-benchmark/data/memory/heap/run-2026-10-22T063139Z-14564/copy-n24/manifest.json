@@ -1,0 +1,38 @@
+{
+  "version": "copy",
+  "commit": "44222a9e54f6d3fe873b412944b4d93d47cfc528",
+  "jar_sha256": "545394bc9a1e2c49ef5969ee29534ebd2989892ad75ffdabf3effbccee6bf724",
+  "query_sha256": "2f5740823821ad4c545d81ac0f6365b8280f9d7e623174b2659055ec4892000b",
+  "options": {
+    "version": "copy",
+    "n": 24,
+    "interval": 0.0,
+    "memory": "12g",
+    "timeout": 3600
+  },
+  "command": [
+    "spark-submit",
+    "--driver-memory",
+    "12g",
+    "--conf",
+    "spark.ui.showConsoleProgress=false",
+    "--driver-java-options",
+    "-Xlog:gc:file=~/Thesis/experiments/function-call-benchmark/data/memory/heap/run-2026-10-22T063139Z-14564/copy-n24/gc.log:uptime",
+    "~/Thesis/experiments/function-call-benchmark/jars/copy.jar",
+    "run",
+    "~/Thesis/experiments/function-call-benchmark/data/memory/heap/run-2026-10-22T063139Z-14564/copy-n24/query.jq"
+  ],
+  "environment": {
+    "date": "2026-10-22",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "cpu": "Apple M3",
+    "memory_bytes": "25769803776",
+    "java_home": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home",
+    "java": [
+      "openjdk version \"17.0.20.1\" 2026-08-18",
+      "OpenJDK Runtime Environment Temurin-17.0.20.1+1 (build 17.0.20.1+1)"
+    ],
+    "spark_submit": "4.2.0"
+  }
+}

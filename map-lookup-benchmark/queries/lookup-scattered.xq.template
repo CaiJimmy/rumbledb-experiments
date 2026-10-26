@@ -1,0 +1,5 @@
+xquery version "3.1";
+(: As lookup.xq.template, but consecutive lookups are 7,919 keys apart. 7,919 is prime and does not divide
+   512,000, so every key is still looked up equally often. :)
+let $m := map:merge(for $k in 1 to 512000 return map { $k : 1 })
+return sum(for $i in 1 to {n} return map:get($m, ($i * 7919) mod 512000 + 1))

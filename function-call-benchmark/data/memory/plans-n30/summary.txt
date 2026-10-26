@@ -1,0 +1,6 @@
+plans-n30: exit code 0, heap after the last GC 66 MiB
+histogram  after young GC  after full GC      live bytes  RuntimeStaticContext
+      1 s          43 MiB         45 MiB      37,051,304                     0
+      2 s          58 MiB         61 MiB      53,415,112                     0
+      3 s          66 MiB         66 MiB      58,120,624                    67
+      4 s          66 MiB         66 MiB      58,114,048                    57

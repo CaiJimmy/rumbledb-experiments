@@ -1,0 +1,49 @@
+timestamp,mode,version,commit,n,query,work,process,phase,iteration,seconds,status,result,allocated_bytes,retained_bytes
+2026-10-23T12:57:51,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,1,main,,0,setup,0,1.437274,ok,"java 17.0.21 (Eclipse Adoptium), spark 4.2.0, max heap 4096 MB",,
+2026-10-23T12:57:51,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,1,main,,0,warmup,0,0.252537,ok,1,,3110968
+2026-10-23T12:57:51,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,1,main,,0,measure,0,0.009864,ok,1,,328
+2026-10-23T12:57:51,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,1,main,,0,measure,1,0.009266,ok,1,,328
+2026-10-23T12:57:54,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,1,main,,0,setup,0,1.440769,ok,"java 17.0.21 (Eclipse Adoptium), spark 4.2.0, max heap 4096 MB",,
+2026-10-23T12:57:54,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,1,main,,0,warmup,0,0.250291,ok,1,,3149488
+2026-10-23T12:57:54,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,1,main,,0,measure,0,0.009860,ok,1,,472
+2026-10-23T12:57:54,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,1,main,,0,measure,1,0.009445,ok,1,,440
+2026-10-23T12:57:58,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,512000,main,,0,setup,0,1.438435,ok,"java 17.0.21 (Eclipse Adoptium), spark 4.2.0, max heap 4096 MB",,
+2026-10-23T12:57:58,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,512000,main,,0,warmup,0,0.749159,ok,512000,,75098960
+2026-10-23T12:57:58,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,512000,main,,0,measure,0,0.383076,ok,512000,,72022888
+2026-10-23T12:57:58,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,512000,main,,0,measure,1,0.281920,ok,512000,,72022416
+2026-10-23T12:58:02,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,512000,main,,0,setup,0,1.485811,ok,"java 17.0.21 (Eclipse Adoptium), spark 4.2.0, max heap 4096 MB",,
+2026-10-23T12:58:02,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,512000,main,,0,warmup,0,0.901649,ok,512000,,80492816
+2026-10-23T12:58:02,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,512000,main,,0,measure,0,0.456956,ok,512000,,77532008
+2026-10-23T12:58:02,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,512000,main,,0,measure,1,0.391763,ok,512000,,77541960
+2026-10-23T12:58:05,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,1,main,,1,setup,0,1.428858,ok,"java 17.0.21 (Eclipse Adoptium), spark 4.2.0, max heap 4096 MB",,
+2026-10-23T12:58:05,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,1,main,,1,warmup,0,0.250096,ok,1,,2931264
+2026-10-23T12:58:05,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,1,main,,1,measure,0,0.010438,ok,1,,312
+2026-10-23T12:58:05,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,1,main,,1,measure,1,0.009252,ok,1,,440
+2026-10-23T12:58:07,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,1,main,,1,setup,0,1.462870,ok,"java 17.0.21 (Eclipse Adoptium), spark 4.2.0, max heap 4096 MB",,
+2026-10-23T12:58:07,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,1,main,,1,warmup,0,0.248482,ok,1,,3042896
+2026-10-23T12:58:07,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,1,main,,1,measure,0,0.010087,ok,1,,296
+2026-10-23T12:58:07,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,1,main,,1,measure,1,0.009234,ok,1,,328
+2026-10-23T12:58:12,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,512000,main,,1,setup,0,1.623628,ok,"java 17.0.21 (Eclipse Adoptium), spark 4.2.0, max heap 4096 MB",,
+2026-10-23T12:58:12,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,512000,main,,1,warmup,0,0.919499,ok,512000,,80600344
+2026-10-23T12:58:12,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,512000,main,,1,measure,0,0.469547,ok,512000,,77659048
+2026-10-23T12:58:12,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,512000,main,,1,measure,1,0.401302,ok,512000,,77497824
+2026-10-23T12:58:16,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,512000,main,,1,setup,0,1.569744,ok,"java 17.0.21 (Eclipse Adoptium), spark 4.2.0, max heap 4096 MB",,
+2026-10-23T12:58:16,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,512000,main,,1,warmup,0,0.782042,ok,512000,,75100560
+2026-10-23T12:58:16,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,512000,main,,1,measure,0,0.407995,ok,512000,,72022808
+2026-10-23T12:58:16,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,512000,main,,1,measure,1,0.321007,ok,512000,,72022464
+2026-10-23T12:58:19,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,1,main,,2,setup,0,1.509008,ok,"java 17.0.21 (Eclipse Adoptium), spark 4.2.0, max heap 4096 MB",,
+2026-10-23T12:58:19,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,1,main,,2,warmup,0,0.262877,ok,1,,3035288
+2026-10-23T12:58:19,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,1,main,,2,measure,0,0.009903,ok,1,,168
+2026-10-23T12:58:19,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,1,main,,2,measure,1,0.009370,ok,1,,272
+2026-10-23T12:58:21,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,1,main,,2,setup,0,1.504771,ok,"java 17.0.21 (Eclipse Adoptium), spark 4.2.0, max heap 4096 MB",,
+2026-10-23T12:58:21,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,1,main,,2,warmup,0,0.266809,ok,1,,3043488
+2026-10-23T12:58:21,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,1,main,,2,measure,0,0.010474,ok,1,,312
+2026-10-23T12:58:21,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,1,main,,2,measure,1,0.009724,ok,1,,440
+2026-10-23T12:58:25,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,512000,main,,2,setup,0,1.471010,ok,"java 17.0.21 (Eclipse Adoptium), spark 4.2.0, max heap 4096 MB",,
+2026-10-23T12:58:25,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,512000,main,,2,warmup,0,0.762136,ok,512000,,75099024
+2026-10-23T12:58:25,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,512000,main,,2,measure,0,0.380176,ok,512000,,72022744
+2026-10-23T12:58:25,retained,compacted,4c7b3724a45ea68bacef0ec566b6409dabe1632f,512000,main,,2,measure,1,0.327443,ok,512000,,72022400
+2026-10-23T12:58:30,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,512000,main,,2,setup,0,1.455334,ok,"java 17.0.21 (Eclipse Adoptium), spark 4.2.0, max heap 4096 MB",,
+2026-10-23T12:58:30,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,512000,main,,2,warmup,0,0.810011,ok,512000,,80683216
+2026-10-23T12:58:30,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,512000,main,,2,measure,0,0.439607,ok,512000,,77491872
+2026-10-23T12:58:30,retained,trie,04b193dc9c19623e3dae95efb0ca59de39b72670,512000,main,,2,measure,1,0.383309,ok,512000,,77560552

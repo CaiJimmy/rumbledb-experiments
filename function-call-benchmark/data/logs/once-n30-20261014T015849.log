@@ -1,0 +1,23 @@
+
+--- stderr ---
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/10/14 01:49:00 WARN Utils: Your hostname, localhost, resolves to a loopback address: 127.0.0.1; using 192.168.1.104 instead (on interface en0)
+26/10/14 01:49:00 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+26/10/14 01:49:01 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/10/14 01:49:01 INFO SparkContext: Running Spark version 4.2.0
+26/10/14 01:49:01 INFO SparkContext: OS info Mac OS X, 27.0.1, aarch64
+26/10/14 01:49:01 INFO SparkContext: Java version 17.0.20.1+1
+Setting Spark log level to "OFF".
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "Spark Context Cleaner"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "SparkUI-45"
+Exception in thread "RemoteBlock-temp-file-clean-thread" Exception in thread "netty-rpc-env-timeout" Exception in thread "SparkUI-44" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "executor-kill-mark-cleanup" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "SparkUI-43" java.lang.OutOfMemoryError: Java heap space
+⚠️  Java went out of memory.
+If running locally, try adding --driver-memory 10G (or any quantity you need) between spark-submit and the RumbleDB jar in the command line to see if it fixes the problem. If running on a cluster, --executor-memory is the way to go.

@@ -1,0 +1,5 @@
+name,commit,description
+copy,44222a9e54f6d3fe873b412944b4d93d47cfc528,parent of #1696 (Fix xml:id() semantics #1722): every call deep-copies the function item with Java serialization
+once,a23c3c7367c1b97ebd99153f692c9fa81ac326a1,parent of #1773 (Add runtime plan and cursor definitions #1772): the body is serialized once and deserialized for every call
+plans,06814d0c3f17ca73db5ad1301dc626f74b925e52,#1773 (Migrate iterators to runtime plans and cursors): runtime plans and cursors
+final,4c7b3724a45ea68bacef0ec566b6409dabe1632f,#1943 on master (after #1941 and #1942): static calls without a call plan; every function item call through one shared plan

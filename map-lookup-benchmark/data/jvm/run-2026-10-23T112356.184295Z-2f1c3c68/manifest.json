@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "run_id": "91bc6724b4a84a8286c17e691e5401c4",
+  "started_at": "2026-10-23T11:23:56.189386+00:00",
+  "experiment": "map-lookup-benchmark",
+  "command": [
+    "run.py",
+    "--mode",
+    "jvm",
+    "--versions",
+    "compacted,trie",
+    "--ns",
+    "1,10000000",
+    "--processes",
+    "3",
+    "--warmups",
+    "2",
+    "--iterations",
+    "5",
+    "--driver-memory",
+    "4g",
+    "--timeout",
+    "3600"
+  ],
+  "working_directory": "~/Thesis/experiments/map-lookup-benchmark",
+  "options": {
+    "mode": "jvm",
+    "versions": [
+      "compacted",
+      "trie"
+    ],
+    "ns": [
+      1,
+      10000000
+    ],
+    "max_n": {},
+    "processes": 3,
+    "warmups": 2,
+    "iterations": 5,
+    "driver_memory": "4g",
+    "timeout": 3600
+  },
+  "query": "queries/lookup.xq.template",
+  "versions": {
+    "compacted": "4c7b3724a45ea68bacef0ec566b6409dabe1632f",
+    "trie": "04b193dc9c19623e3dae95efb0ca59de39b72670"
+  },
+  "jar_sha256": {
+    "compacted": "2ec15c6f80bb7937987d015cce905bf289fee89b30299300d7ccb35fea8ed12a",
+    "trie": "2347a2edb2eb9c3a4adb3e2613bf73e6a89e3cc25a2d24d2b6ed21da0c193475"
+  },
+  "harness_sha256": "98cdb6b874a44bbc9d8c054196ef8a2aebddf0963b74fe847e72679b81e74eb7",
+  "source_sha256": {
+    "query.template": "0a52d4f7823f55c7d8bce87aaff4e8c9d30fbbf4e909ee6475c9d80483fb1415",
+    "run.py": "2cb3ebf1a90070cb81a7e1c2be5f4c8a15176600bf4c6de9c8c80de7fd79c83c",
+    "versions.csv": "8788a18b84e49f3084853969a87bc9b3d0b74bfc2924efcc4ebf7542c4ac3c96",
+    "benchkit.py": "60bc8d69b304802083d149c526abf8eee287a331115cbd78462ea7953695b945",
+    "runner.py": "bcf791d843e04b337cacfbe2ecc3e89ca55ee9df18be8a921940f8310c153ae0",
+    "recording.py": "b331c9bb21ef9fcbe101f0b7c9ffb0c575bd293f44317c0a5799c16084ef709a",
+    "analysis.py": "b1bd097f20509b96faeae7485d262dc45e3f505b477cff2d7fc8b762ea499b90",
+    "QueryBench.java": "9de2f73ed6f6f451d9aba9a3cdcc2a3abd29f4db8b6006b2e5df05c5b7bbb270"
+  },
+  "environment": {
+    "date": "2026-10-23",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "cpu": "Apple M3",
+    "memory_bytes": "25769803776",
+    "java_home": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home",
+    "java": [
+      "openjdk version \"17.0.21\" 2026-10-20",
+      "OpenJDK Runtime Environment Temurin-17.0.21+9 (build 17.0.21+9)"
+    ],
+    "spark_submit": "4.2.0"
+  }
+}

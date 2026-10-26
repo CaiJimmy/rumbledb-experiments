@@ -1,0 +1,1582 @@
+{
+ "wrapper": true,
+ "results": [
+  {
+   "file": "static-typing/arithmetic/add10.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "The following types operation is not possible: xs:integer + xs:string"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/add11.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "The following types operation is not possible: xs:integer + xs:string"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/add3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "'+' and '*' arities are not allowed for additive expressions"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/add4.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type for AdditiveExpression is empty sequence (with active static typing feature, only allowed for CommaExpression)"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/add5.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type for AdditiveExpression is empty sequence (with active static typing feature, only allowed for CommaExpression)"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/add6.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "The following types operation is not possible: xs:time + xs:yearMonthDuration"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/add7.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "The following types operation is not possible: xs:dayTimeDuration + xs:yearMonthDuration"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/add8.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "The following types operation is not possible: xs:dateTime + xs:integer"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/add9.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "The following types operation is not possible: xs:dateTime - xs:date"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/mul10.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type for MultiplicativeExpression is empty sequence (with active static typing feature, only allowed for CommaExpression)"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/mul3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "The following types expression is not valid: xs:yearMonthDuration idiv xs:integer"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/mul4.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "The following types expression is not valid: xs:dayTimeDuration idiv xs:decimal"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/mul5.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "The following types expression is not valid: xs:yearMonthDuration div xs:dayTimeDuration"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/mul6.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "The following types expression is not valid: xs:dayTimeDuration mod xs:integer"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/mul7.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "The following types expression is not valid: xs:string * xs:integer"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/mul8.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "'+' and '*' arities are not allowed for multiplicative expressions"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/mul9.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type for MultiplicativeExpression is empty sequence (with active static typing feature, only allowed for CommaExpression)"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/unary2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is not possible to have an Unary expression with the following type: xs:string"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/unary3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "'+' and '*' arities are not allowed for unary expressions"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/unary4.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type is empty sequence and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/unary5.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "'+' and '*' arities are not allowed for unary expressions"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/arithmetic/unary6.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is not possible to have an Unary expression with the following type: xs:anyAtomicType"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/IndependentDurationUnions.xq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is not possible to compare these types: { \"kind\": \"union\", \"baseType\": \"xs:anyAtomicType\", \"treeDepth\": 2, \"content\": [ \"xs:dayTimeDuration\", \"xs:yearMonthDuration\" ] } lt { \"kind\": \"union\", \"baseType\": \"xs:anyAtomicType\", \"treeDepth\": 2, \"content\": [ \"xs:dayTimeDuration\", \"xs:yearMonthDuration\" ] }"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/NodeEmptyOperand.xq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "The node comparison is statically inferred to return an empty sequence"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/NodeMultipleOperand.xq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "A node comparison operand must be a single node or empty, found element+"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/NodeNonNodeOperand.xq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "A node comparison operand must be a single node or empty, found xs:integer"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/NullableUnionIncompatibleMember.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is not possible to compare these types: { \"kind\": \"union\", \"baseType\": \"xs:anyAtomicType\", \"treeDepth\": 2, \"content\": [ \"xs:integer\", \"js:null\", \"xs:string\" ] } eq xs:integer"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/UnorderedDurationAlternative.xq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is not possible to compare these types: { \"kind\": \"union\", \"baseType\": \"xs:anyAtomicType\", \"treeDepth\": 2, \"content\": [ \"xs:duration\", \"xs:integer\" ] } lt { \"kind\": \"union\", \"baseType\": \"xs:anyAtomicType\", \"treeDepth\": 2, \"content\": [ \"xs:duration\", \"xs:integer\" ] }"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/comp10.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is not possible to compare these types: xs:yearMonthDuration lt xs:dayTimeDuration"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/comp13.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is not possible to compare these types: xs:hexBinary eq xs:base64Binary"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/comp14.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is not possible to compare these types: xs:anyAtomicType eq xs:string"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/comp15.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "'+' and '*' arities are not allowed for this comparison operator: eq"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/comp16.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "'+' and '*' arities are not allowed for this comparison operator: ne"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/comp17.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "'+' and '*' arities are not allowed for this comparison operator: eq"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/comp18.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is not possible to compare these types: { \"kind\": \"union\", \"baseType\": \"xs:anyAtomicType\", \"treeDepth\": 2, \"content\": [ \"xs:integer\", \"xs:string\" ] } < xs:integer"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/comp4.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type is empty sequence and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/comp5.jq",
+   "expected": "JNTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "JNTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is not possible to compare with non-atomic types"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/comp6.jq",
+   "expected": "JNTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "JNTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is not possible to compare with non-atomic types"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/comp7.jq",
+   "expected": "JNTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "JNTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is not possible to compare with non-atomic types"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/comp8.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is not possible to compare these types: xs:date eq xs:dateTime"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/comparison/comp9.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is not possible to compare these types: xs:dateTime eq xs:time"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/constructors/IncompatibleElementFunctionReturn.xq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "The declared function return inferred type element(other) does not match or can be promoted to the expected return type element(e)"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/constructors/IncompatibleElementNamespace.xq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "The declared function return inferred type element(e) does not match or can be promoted to the expected return type element(e)"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/control/if9.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "The condition in the 'if' must have effective boolean value, found inferred type: xs:dateTime (which has not effective boolean value)"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/control/switch10.jq",
+   "expected": "FOTY0015",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "FOTY0015",
+     "source": "jsoniq-static-typecheck",
+     "message": "function item not allowed for the expressions of switch test condition and cases"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/control/switch11.jq",
+   "expected": "FOTY0015",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "FOTY0015",
+     "source": "jsoniq-static-typecheck",
+     "message": "function item not allowed for the expressions of switch test condition and cases"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/control/switch4.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "+ and * arities are not allowed for the expressions of switch test condition and cases"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/control/switch5.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "+ and * arities are not allowed for the expressions of switch test condition and cases"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/control/switch6.jq",
+   "expected": "JNTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "JNTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "switch test condition and cases expressions' item type must match atomic, instead inferred: js:array"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/control/switch7.jq",
+   "expected": "JNTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "JNTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "switch test condition and cases expressions' item type must match atomic, instead inferred: { \"kind\": \"object\", \"baseType\": \"js:object\", \"treeDepth\": 3, \"closed\": true,  }"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/control/switch8.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "switch test condition and cases expressions' item type must match atomic, instead inferred: item"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/control/switch9.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "switch test condition and cases expressions' item type must match atomic, instead inferred: item"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/flwor/for5.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "In for clause Inferred type is empty sequence, empty is not allowed, so the result returned is for sure () and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/flwor/for7.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type for VariableReferenceExpression is empty sequence (with active static typing feature, only allowed for CommaExpression)"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/flwor/group2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "group by variable a must match atomic? instead found { \"kind\": \"union\", \"baseType\": \"item\", \"treeDepth\": 1, \"content\": [ \"js:array\", \"xs:integer\" ] }"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/flwor/group3.jq",
+   "expected": "JNTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "JNTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "group by variable a must match atomic? instead found { \"kind\": \"union\", \"baseType\": \"item\", \"treeDepth\": 1, \"content\": [ \"js:array\", { \"kind\": \"object\", \"baseType\": \"js:object\", \"treeDepth\": 3, \"closed\": true, \"content\": [ { \"name\": \"a\", \"required\": true, \"type\": \"xs:integer\", \"unique\": false } ] } ] }"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/flwor/let1.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "In a LetClause, the variable $a inferred type xs:string does not match or can be promoted to the declared type xs:integer"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/flwor/order2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "order by sorting expression's type must match atomic? and be comparable using 'gt' operator (so duration, hexBinary, base64Binary and atomic item type are not allowed), instead inferred: xs:hexBinary"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/flwor/order3.jq",
+   "expected": "JNTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "JNTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "order by sorting expression's type must match atomic? and be comparable using 'gt' operator (so duration, hexBinary, base64Binary and atomic item type are not allowed), instead inferred: { \"kind\": \"union\", \"baseType\": \"item\", \"treeDepth\": 1, \"content\": [ \"js:array\", { \"kind\": \"object\", \"baseType\": \"js:object\", \"treeDepth\": 3, \"closed\": true, \"content\": [ { \"name\": \"a\", \"required\": true, \"type\": \"xs:integer\", \"unique\": false } ] } ] }"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/flwor/order4.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "order by sorting expression's type must match atomic? and be comparable using 'gt' operator (so duration, hexBinary, base64Binary and atomic item type are not allowed), instead inferred: item"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/flwor/return1.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type for FlworExpression is empty sequence (with active static typing feature, only allowed for CommaExpression)"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/flwor/where-min-mixed-types.jq",
+   "expected": "FORG0006",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "FORG0006",
+     "source": "jsoniq-static-typecheck",
+     "message": "fn:min requires an atomic input type other than xs:anyAtomicType whose member types can be compared with each other, found { \"kind\": \"union\", \"baseType\": \"xs:anyAtomicType\", \"treeDepth\": 2, \"content\": [ \"xs:string\", \"xs:integer\" ] }+"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/flwor/where1.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "where clause inferred type (xs:yearMonthDuration) has no effective boolean value"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/flwor/where3.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "where clause always return false, so return expression inferred type is empty sequence and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/flwor/where4.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "where clause always return false, so return expression inferred type is empty sequence and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/logic2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "left expression of a OrExpression has xs:date inferred type, which has no effective boolean value"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/logic3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "left expression of a OrExpression has xs:integer+ inferred type, which has no effective boolean value"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/logic4.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "left expression of a AndExpression has xs:integer* inferred type, which has no effective boolean value"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/map2.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type for SimpleMapExpression is empty sequence (with active static typing feature, only allowed for CommaExpression)"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/map3.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type for SimpleMapExpression is empty sequence (with active static typing feature, only allowed for CommaExpression)"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/misc/concat2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "operands of the concat expression must match type atomic? instead found: js:array and xs:string"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/misc/concat3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "operands of the concat expression must match type atomic? instead found: { \"kind\": \"object\", \"baseType\": \"js:object\", \"treeDepth\": 3, \"closed\": true, \"content\": [ { \"name\": \"obj\", \"required\": true, \"type\": \"xs:integer\", \"unique\": false } ] } and xs:string"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/misc/concat4.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "operands of the concat expression must match type atomic? instead found: item and xs:string"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/misc/concat5.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "operands of the concat expression must match type atomic? instead found: xs:string+ and xs:string"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/misc/concat6.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "operands of the concat expression must match type atomic? instead found: xs:integer* and xs:string"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/misc/minmax2.jq",
+   "expected": "FORG0006",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "FORG0006",
+     "source": "jsoniq-static-typecheck",
+     "message": "fn:max requires an atomic input type other than xs:anyAtomicType whose member types can be compared with each other, found { \"kind\": \"union\", \"baseType\": \"xs:anyAtomicType\", \"treeDepth\": 2, \"content\": [ \"xs:string\", \"xs:integer\" ] }+"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/misc/minmax3.jq",
+   "expected": "FORG0006",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "FORG0006",
+     "source": "jsoniq-static-typecheck",
+     "message": "fn:min requires an atomic input type other than xs:anyAtomicType whose member types can be compared with each other, found { \"kind\": \"union\", \"baseType\": \"xs:anyAtomicType\", \"treeDepth\": 2, \"content\": [ \"xs:string\", \"xs:integer\" ] }+"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/misc/range2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "operands of the range expression must match type integer? instead found: xs:integer* and xs:integer"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/misc/range3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "operands of the range expression must match type integer? instead found: xs:integer and xs:integer+"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/misc/range4.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "operands of the range expression must match type integer? instead found: xs:integer and xs:decimal"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/misc/range5.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "operands of the range expression must match type integer? instead found: xs:string and xs:integer"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/misc/range6.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type is empty sequence and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/mixed-nodes/IncompatibleArithmetic.xq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type is empty sequence and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/mixed-nodes/IncompatibleComparison.xq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is not possible to compare these types: { \"kind\": \"union\", \"baseType\": \"item\", \"treeDepth\": 1, \"content\": [ \"xs:integer\", \"element(a)\" ] } eq xs:string"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/paths/EmptyStepLocation.xq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type for ForwardStepExpr is empty sequence (with active static typing feature, only allowed for CommaExpression)"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/arraylookup2.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type is empty sequence and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/arraylookup3.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type is empty sequence and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/arraylookup4.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "the lookup expression type must match integer, instead xs:string was inferred"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/arraylookup5.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type is empty sequence and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/arrayunbox2.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type is empty sequence and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/arrayunbox3.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type is empty sequence and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/arrayunbox4.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type is empty sequence and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/arrayunbox5.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type is empty sequence and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/dynamicfunc2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "the type of a dynamic function call main expression must be function, array, or map, instead inferred xs:integer"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/filter2.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type for FilterExpression is empty sequence (with active static typing feature, only allowed for CommaExpression)"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/filter3.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type for FilterExpression is empty sequence (with active static typing feature, only allowed for CommaExpression)"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/filter4.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type for FilterExpression is empty sequence (with active static typing feature, only allowed for CommaExpression)"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/filter5.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type item in FilterExpression has no effective boolean value"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/objectlookup2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "the lookup expression type must be castable to string (i.e. must match atomic), instead xs:integer+ was inferred"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/objectlookup3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "the lookup expression type must be castable to string (i.e. must match atomic), instead () was inferred"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/objectlookup4.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "the lookup expression type must be castable to string (i.e. must match atomic), instead { \"kind\": \"array\", \"baseType\": \"js:array\", \"treeDepth\": 3, \"content\": \"xs:integer\" } was inferred"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/objectlookup5.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "the lookup expression type must be castable to string (i.e. must match atomic), instead item was inferred"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/objectlookup6.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type is empty sequence and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/objectlookup7.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type is empty sequence and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/objectlookup8.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type is empty sequence and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/postfix/objectlookup9.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type is empty sequence and this is not a CommaExpression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/primary/object2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "The inferred static sequence types for the keys of an Object must be a subtype of string or anyURI, instead found a: xs:integer"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/primary/object3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "The child expression must have object* sequence type, instead found: xs:integer+"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/primary/staticFunctionCall2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "Argument requires xs:integer but xs:string was found"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/primary/staticFunctionCall3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "Argument 1 requires xs:integer but xs:string was found"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/primary/variableReference2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/primary/variableReference3.jq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "Inferred type for VariableReferenceExpression is empty sequence (with active static typing feature, only allowed for CommaExpression)"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/quantified2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "where clause inferred type (xs:hexBinary) has no effective boolean value"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/schema-path-steps/SchemaDescendantUnknownElement.xq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "The schema declares no descendant element d:missing below schema-element(d:doc). It declares d:section, d:title."
+    }
+   ]
+  },
+  {
+   "file": "static-typing/schema-path-steps/SchemaDocumentUnknownRoot.xq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "The schema declares no child element l:book for document-node(schema-element(l:library)). It declares l:library."
+    }
+   ]
+  },
+  {
+   "file": "static-typing/schema-path-steps/SchemaPathUnknownChild.xq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "The schema declares no child element p:missing for schema-element(p:order). It declares p:item, p:special, p:paid, p:due, p:customer, p:meta."
+    }
+   ]
+  },
+  {
+   "file": "static-typing/schema-path-steps/SchemaWildcardOtherNamespace.xq",
+   "expected": "XPST0005",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0005",
+     "source": "jsoniq-static-typecheck",
+     "message": "The schema declares no child element p:x for element(p:meta, <anonymous>). It declares none."
+    }
+   ]
+  },
+  {
+   "file": "static-typing/schema-typed-values/ListTypedValueArgument.xq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "Argument 0 requires xs:string but schema-element(t:tags) was found"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/schema-typed-values/ListTypedValueCast.xq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "with static type feature it is not possible to cast a schema-element(t:tags) with typed value xs:string* as xs:string"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/schema-typed-values/NillableTypedValueCast.xq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "with static type feature it is not possible to cast a schema-element(t:optional-price) with typed value t:Price? as t:Price"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/schema-typed-values/ValidatedTypedValueComparison.xq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is not possible to compare these types: schema-element(t:price) eq xs:string"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/typing/MixedAtomicNodeInvalidCastType.xq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is never possible to cast a { \"kind\": \"union\", \"baseType\": \"item\", \"treeDepth\": 1, \"content\": [ \"xs:date\", \"element(a)\" ] } as xs:integer"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/typing/cast10.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is never possible to cast a xs:double as xs:duration"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/typing/cast3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is never possible to cast a xs:anyAtomicType as xs:integer"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/typing/cast4.jq",
+   "expected": "FOTY0012",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "FOTY0012",
+     "source": "jsoniq-static-typecheck",
+     "message": "A cast operand must be atomic after atomization, found item"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/typing/cast5.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "It is never possible to cast a xs:time as xs:dateTime"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/typing/cast6.jq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "with static type feature it is not possible to cast a xs:integer? as xs:integer"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/typing/cast7.jq",
+   "expected": "XPST0080",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0080",
+     "source": "jsoniq-static-typecheck",
+     "message": "atomic item type is not allowed in cast expression"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/typing/cast8.jq",
+   "expected": "JNTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "JNTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "A cast operand must be atomic after atomization, found js:array"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/typing/castable2.jq",
+   "expected": "JNTY0004",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "JNTY0004",
+     "source": "jsoniq-static-typecheck",
+     "message": "A cast operand must be atomic after atomization, found js:array"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/typing/castable3.jq",
+   "expected": "FOTY0012",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "FOTY0012",
+     "source": "jsoniq-static-typecheck",
+     "message": "A cast operand must be atomic after atomization, found item"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/typing/castable4.jq",
+   "expected": "XPST0080",
+   "diagnostics": [
+    {
+     "severity": 2,
+     "code": "XPST0080",
+     "source": "jsoniq-static-typecheck",
+     "message": "atomic item type is not allowed in castable expression"
+    }
+   ]
+  }
+ ]
+}

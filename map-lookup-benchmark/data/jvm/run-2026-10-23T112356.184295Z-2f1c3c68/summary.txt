@@ -1,0 +1,14 @@
+Runtime of the measured JVMs: java 17.0.21 (Eclipse Adoptium), spark 4.2.0, max heap 4096 MB
+
+== jvm mode: median seconds, query only; (JVM count, spread = (max - min) / median)
+        n    lookups                   compacted                        trie
+        1          1      0.2961 s ( 3,   5%)      0.3487 s ( 3,   4%)
+ 10000000 10,000,000      6.0312 s ( 3,   8%)      8.6980 s ( 3,  23%)
+Cost per lookup at the largest n of each version:
+  compacted:      0.603 us at n = 10000000
+      trie:      0.870 us at n = 10000000
+
+== jvm mode: median MB allocated; (JVM count, spread = (max - min) / median)
+        n    lookups                   compacted                        trie
+        1          1   1002.7205 MB( 3,   2%)   1046.4872 MB( 3,   0%)
+ 10000000 10,000,000   1898.2391 MB( 3,   0%)   2125.5202 MB( 3,   0%)

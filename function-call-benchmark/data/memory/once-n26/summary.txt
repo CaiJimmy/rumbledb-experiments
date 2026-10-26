@@ -1,0 +1,6 @@
+once-n26: exit code 0, heap after the last GC 7,806 MiB
+histogram  after young GC  after full GC      live bytes  RuntimeStaticContext
+     15 s       1,525 MiB      1,425 MiB   1,478,394,552             1,234,768
+     30 s       3,107 MiB      3,043 MiB   3,170,092,720             2,705,945
+     45 s       4,843 MiB      4,676 MiB   4,880,755,224             4,193,612
+     60 s       6,412 MiB      6,290 MiB   6,569,933,216             5,662,609

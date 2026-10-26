@@ -1,0 +1,672 @@
+{
+ "wrapper": false,
+ "results": [
+  {
+   "file": "static-typing/arithmetic/add10.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/add11.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/add3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/add4.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/add5.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/add6.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/add7.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/add8.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/add9.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/mul10.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/mul3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/mul4.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/mul5.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/mul6.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/mul7.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/mul8.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/mul9.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/unary2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/unary3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/unary4.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/unary5.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/arithmetic/unary6.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/IndependentDurationUnions.xq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/NodeEmptyOperand.xq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/NodeMultipleOperand.xq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/NodeNonNodeOperand.xq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/NullableUnionIncompatibleMember.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/UnorderedDurationAlternative.xq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/comp10.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/comp13.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/comp14.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/comp15.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/comp16.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/comp17.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/comp18.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/comp4.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/comp5.jq",
+   "expected": "JNTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/comp6.jq",
+   "expected": "JNTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/comp7.jq",
+   "expected": "JNTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/comp8.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/comparison/comp9.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/constructors/IncompatibleElementFunctionReturn.xq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/constructors/IncompatibleElementNamespace.xq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/control/if9.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/control/switch10.jq",
+   "expected": "FOTY0015",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/control/switch11.jq",
+   "expected": "FOTY0015",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/control/switch4.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/control/switch5.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/control/switch6.jq",
+   "expected": "JNTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/control/switch7.jq",
+   "expected": "JNTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/control/switch8.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/control/switch9.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/flwor/for5.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/flwor/for7.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/flwor/group2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/flwor/group3.jq",
+   "expected": "JNTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/flwor/let1.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/flwor/order2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/flwor/order3.jq",
+   "expected": "JNTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/flwor/order4.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/flwor/return1.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/flwor/where-min-mixed-types.jq",
+   "expected": "FORG0006",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/flwor/where1.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/flwor/where3.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/flwor/where4.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/logic2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/logic3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/logic4.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/map2.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/map3.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/misc/concat2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/misc/concat3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/misc/concat4.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/misc/concat5.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/misc/concat6.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/misc/minmax2.jq",
+   "expected": "FORG0006",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/misc/minmax3.jq",
+   "expected": "FORG0006",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/misc/range2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/misc/range3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/misc/range4.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/misc/range5.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/misc/range6.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/mixed-nodes/IncompatibleArithmetic.xq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/mixed-nodes/IncompatibleComparison.xq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/paths/EmptyStepLocation.xq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/arraylookup2.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/arraylookup3.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/arraylookup4.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/arraylookup5.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/arrayunbox2.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/arrayunbox3.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/arrayunbox4.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/arrayunbox5.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/dynamicfunc2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/filter2.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/filter3.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/filter4.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/filter5.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/objectlookup2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/objectlookup3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/objectlookup4.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/objectlookup5.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/objectlookup6.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/objectlookup7.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/objectlookup8.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/postfix/objectlookup9.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/primary/object2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/primary/object3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/primary/staticFunctionCall2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/primary/staticFunctionCall3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/primary/variableReference2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/primary/variableReference3.jq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/quantified2.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/schema-path-steps/SchemaDescendantUnknownElement.xq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/schema-path-steps/SchemaDocumentUnknownRoot.xq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/schema-path-steps/SchemaPathUnknownChild.xq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/schema-path-steps/SchemaWildcardOtherNamespace.xq",
+   "expected": "XPST0005",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/schema-typed-values/ListTypedValueArgument.xq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/schema-typed-values/ListTypedValueCast.xq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/schema-typed-values/NillableTypedValueCast.xq",
+   "expected": "XPTY0004",
+   "diagnostics": [
+    {
+     "severity": 1,
+     "code": "unresolved-type",
+     "source": null,
+     "message": "Reference to undefined type 'Q{urn:typed-values}Price'"
+    }
+   ]
+  },
+  {
+   "file": "static-typing/schema-typed-values/ValidatedTypedValueComparison.xq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/typing/MixedAtomicNodeInvalidCastType.xq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/typing/cast10.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/typing/cast3.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/typing/cast4.jq",
+   "expected": "FOTY0012",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/typing/cast5.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/typing/cast6.jq",
+   "expected": "XPTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/typing/cast7.jq",
+   "expected": "XPST0080",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/typing/cast8.jq",
+   "expected": "JNTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/typing/castable2.jq",
+   "expected": "JNTY0004",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/typing/castable3.jq",
+   "expected": "FOTY0012",
+   "diagnostics": []
+  },
+  {
+   "file": "static-typing/typing/castable4.jq",
+   "expected": "XPST0080",
+   "diagnostics": []
+  }
+ ]
+}

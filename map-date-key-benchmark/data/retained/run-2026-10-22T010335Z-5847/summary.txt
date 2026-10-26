@@ -1,0 +1,10 @@
+Runtime of the measured JVMs: java 17.0.20.1 (Eclipse Adoptium), spark 4.2.0, max heap 4096 MB
+
+== retained mode: median MB retained; (JVM count, spread = (max - min) / median)
+        n                        trie                 trie-hashed
+        1      0.0009 MB( 3,   3%)      0.0009 MB( 3,   4%)
+     1000      0.2467 MB( 3,   0%)      0.2529 MB( 3,   0%)
+     4000      0.9813 MB( 3,   0%)      1.0098 MB( 3,   0%)
+    16000      3.9164 MB( 3,   1%)      3.9589 MB( 3,   0%)
+    32000      7.8423 MB( 3,   1%)      8.1158 MB( 3,   1%)
+    64000                           -     16.3578 MB( 3,   2%)

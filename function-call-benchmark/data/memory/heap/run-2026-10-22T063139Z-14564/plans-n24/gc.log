@@ -1,0 +1,32 @@
+[0.003s] Using G1
+[0.063s] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 23M->20M(400M) 1.324ms
+[0.076s] GC(1) Pause Young (Normal) (G1 Evacuation Pause) 28M->26M(400M) 1.099ms
+[0.112s] GC(2) Pause Young (Normal) (G1 Evacuation Pause) 34M->27M(400M) 0.978ms
+[0.279s] GC(3) Pause Young (Normal) (G1 Evacuation Pause) 59M->29M(400M) 0.867ms
+[0.535s] GC(4) Pause Young (Concurrent Start) (Metadata GC Threshold) 77M->32M(400M) 1.893ms
+[0.535s] GC(5) Concurrent Mark Cycle
+[0.538s] GC(5) Pause Remark 36M->36M(192M) 0.805ms
+[0.539s] GC(5) Pause Cleanup 36M->36M(192M) 0.024ms
+[0.539s] GC(5) Concurrent Mark Cycle 4.569ms
+[0.798s] GC(6) Pause Young (Prepare Mixed) (Metadata GC Threshold) 100M->43M(272M) 1.874ms
+[0.803s] GC(7) Pause Young (Mixed) (Metadata GC Threshold) 44M->43M(272M) 2.143ms
+[0.810s] GC(8) Pause Young (Concurrent Start) (Metadata GC Threshold) 45M->43M(272M) 0.749ms
+[0.810s] GC(9) Concurrent Mark Cycle
+[0.814s] GC(9) Pause Remark 45M->45M(240M) 0.804ms
+[0.817s] GC(9) Pause Cleanup 45M->45M(240M) 0.017ms
+[0.817s] GC(9) Concurrent Mark Cycle 7.314ms
+[1.431s] GC(10) Pause Young (Prepare Mixed) (G1 Evacuation Pause) 179M->51M(240M) 3.943ms
+[1.488s] GC(11) Pause Young (Mixed) (G1 Evacuation Pause) 59M->53M(240M) 3.370ms
+[1.588s] GC(12) Pause Young (Concurrent Start) (Metadata GC Threshold) 86M->53M(240M) 1.496ms
+[1.588s] GC(13) Concurrent Mark Cycle
+[1.599s] GC(13) Pause Remark 56M->56M(240M) 1.394ms
+[1.603s] GC(13) Pause Cleanup 57M->57M(240M) 0.030ms
+[1.603s] GC(13) Concurrent Mark Cycle 15.096ms
+[2.155s] GC(14) Pause Young (Concurrent Start) (G1 Evacuation Pause) 165M->64M(240M) 3.169ms
+[2.155s] GC(15) Concurrent Mark Cycle
+[2.164s] GC(15) Pause Remark 65M->65M(240M) 1.347ms
+[2.168s] GC(15) Pause Cleanup 67M->67M(240M) 0.030ms
+[2.168s] GC(15) Concurrent Mark Cycle 12.839ms
+[2.421s] GC(16) Pause Young (Normal) (G1 Evacuation Pause) 168M->67M(240M) 3.119ms
+[2.468s] GC(17) Pause Young (Normal) (G1 Evacuation Pause) 179M->66M(240M) 1.406ms
+[2.504s] GC(18) Pause Young (Normal) (G1 Evacuation Pause) 178M->66M(480M) 1.586ms

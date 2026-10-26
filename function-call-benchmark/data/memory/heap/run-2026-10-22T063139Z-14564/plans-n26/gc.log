@@ -1,0 +1,30 @@
+[0.003s] Using G1
+[0.063s] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 23M->20M(400M) 1.276ms
+[0.077s] GC(1) Pause Young (Normal) (G1 Evacuation Pause) 28M->26M(400M) 1.180ms
+[0.113s] GC(2) Pause Young (Normal) (G1 Evacuation Pause) 34M->27M(400M) 0.896ms
+[0.275s] GC(3) Pause Young (Normal) (G1 Evacuation Pause) 59M->29M(400M) 0.765ms
+[0.536s] GC(4) Pause Young (Concurrent Start) (Metadata GC Threshold) 77M->32M(400M) 1.776ms
+[0.536s] GC(5) Concurrent Mark Cycle
+[0.540s] GC(5) Pause Remark 36M->36M(192M) 0.718ms
+[0.540s] GC(5) Pause Cleanup 36M->36M(192M) 0.032ms
+[0.540s] GC(5) Concurrent Mark Cycle 3.760ms
+[0.799s] GC(6) Pause Young (Prepare Mixed) (Metadata GC Threshold) 100M->43M(288M) 2.048ms
+[0.805s] GC(7) Pause Young (Mixed) (Metadata GC Threshold) 43M->43M(288M) 2.456ms
+[0.812s] GC(8) Pause Young (Concurrent Start) (Metadata GC Threshold) 45M->43M(288M) 1.080ms
+[0.812s] GC(9) Concurrent Mark Cycle
+[0.816s] GC(9) Pause Remark 45M->45M(240M) 0.878ms
+[0.819s] GC(9) Pause Cleanup 45M->45M(240M) 0.031ms
+[0.819s] GC(9) Concurrent Mark Cycle 6.927ms
+[1.402s] GC(10) Pause Young (Prepare Mixed) (G1 Evacuation Pause) 179M->51M(240M) 3.403ms
+[1.457s] GC(11) Pause Young (Mixed) (G1 Evacuation Pause) 59M->53M(240M) 3.079ms
+[1.544s] GC(12) Pause Young (Concurrent Start) (Metadata GC Threshold) 85M->53M(240M) 1.211ms
+[1.544s] GC(13) Concurrent Mark Cycle
+[1.555s] GC(13) Pause Remark 55M->55M(240M) 1.044ms
+[1.559s] GC(13) Pause Cleanup 56M->56M(240M) 0.029ms
+[1.559s] GC(13) Concurrent Mark Cycle 15.527ms
+[2.089s] GC(14) Pause Young (Normal) (G1 Evacuation Pause) 165M->64M(240M) 2.771ms
+[2.346s] GC(15) Pause Young (Normal) (G1 Evacuation Pause) 168M->67M(240M) 3.302ms
+[2.390s] GC(16) Pause Young (Normal) (G1 Evacuation Pause) 171M->67M(504M) 1.391ms
+[2.487s] GC(17) Pause Young (Normal) (G1 Evacuation Pause) 355M->66M(504M) 1.024ms
+[2.553s] GC(18) Pause Young (Normal) (G1 Evacuation Pause) 354M->67M(504M) 0.973ms
+[2.618s] GC(19) Pause Young (Normal) (G1 Evacuation Pause) 355M->67M(504M) 0.936ms

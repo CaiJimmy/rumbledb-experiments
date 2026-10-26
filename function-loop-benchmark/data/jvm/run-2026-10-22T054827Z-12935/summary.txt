@@ -1,0 +1,22 @@
+Runtime of the measured JVMs: java 17.0.20.1 (Eclipse Adoptium), spark 4.2.0, max heap 12288 MB
+
+== jvm mode: median seconds, query only; (JVM count, spread = (max - min) / median)
+        n      calls                        copy                        once                       plans                       final
+    10000     10,000      8.2247 s ( 3,   6%)      0.0177 s ( 3,  15%)      0.0235 s ( 3,  22%)      0.0201 s ( 3,  10%)
+    30000     30,000                           -      0.0212 s ( 3,  46%)      0.0368 s ( 3,  14%)      0.0286 s ( 3,   6%)
+   100000    100,000                           -      0.0411 s ( 3,   7%)      0.0878 s ( 3,   4%)      0.0447 s ( 3,   5%)
+   300000    300,000                           -      0.1028 s ( 3,   8%)      0.2472 s ( 3,   2%)      0.1068 s ( 3,   9%)
+  1000000  1,000,000                           -      0.3079 s ( 3,   3%)      0.7915 s ( 3,   5%)      0.3102 s ( 3,   5%)
+Cost per call at the largest n of each version:
+      copy:    822.470 us at n = 10000
+      once:      0.308 us at n = 1000000
+     plans:      0.791 us at n = 1000000
+     final:      0.310 us at n = 1000000
+
+== jvm mode: median MB allocated; (JVM count, spread = (max - min) / median)
+        n      calls                        copy                        once                       plans                       final
+    10000     10,000   5140.9918 MB( 3,   0%)     15.5301 MB( 3,   6%)     37.5555 MB( 3,   3%)     23.2005 MB( 3,   1%)
+    30000     30,000                           -     41.8726 MB( 3,   7%)    108.7550 MB( 3,   0%)     55.2868 MB( 3,   0%)
+   100000    100,000                           -    139.6962 MB( 3,   0%)    363.3781 MB( 3,   0%)    171.8028 MB( 3,   0%)
+   300000    300,000                           -    419.6960 MB( 3,   0%)   1091.3781 MB( 3,   0%)    507.7996 MB( 3,   0%)
+  1000000  1,000,000                           -   1399.6961 MB( 3,   0%)   3639.3781 MB( 3,   0%)   1683.7885 MB( 3,   0%)

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "run_id": "da9b5ae1abfe436084134f2b431f17b3",
+  "started_at": "2026-10-22T01:26:29.842364+00:00",
+  "experiment": "function-call-benchmark",
+  "command": [
+    "run.py",
+    "--mode",
+    "jvm",
+    "--versions",
+    "copy,once,plans,final",
+    "--ns",
+    "18,20,22,24,26,28,30",
+    "--max-n",
+    "copy=26,once=26",
+    "--processes",
+    "3",
+    "--warmups",
+    "2",
+    "--iterations",
+    "5",
+    "--driver-memory",
+    "12g",
+    "--timeout",
+    "3600",
+    "--run-dir",
+    "data/jvm/run-2026-10-22T012629Z-11017/main"
+  ],
+  "working_directory": "~/Thesis/experiments/function-call-benchmark",
+  "options": {
+    "mode": "jvm",
+    "versions": [
+      "copy",
+      "once",
+      "plans",
+      "final"
+    ],
+    "ns": [
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30
+    ],
+    "max_n": {
+      "copy": 26,
+      "once": 26
+    },
+    "processes": 3,
+    "warmups": 2,
+    "iterations": 5,
+    "driver_memory": "12g",
+    "timeout": 3600
+  },
+  "query": "queries/fib.jq.template",
+  "versions": {
+    "copy": "44222a9e54f6d3fe873b412944b4d93d47cfc528",
+    "once": "a23c3c7367c1b97ebd99153f692c9fa81ac326a1",
+    "plans": "06814d0c3f17ca73db5ad1301dc626f74b925e52",
+    "final": "4c7b3724a45ea68bacef0ec566b6409dabe1632f"
+  },
+  "jar_sha256": {
+    "copy": "545394bc9a1e2c49ef5969ee29534ebd2989892ad75ffdabf3effbccee6bf724",
+    "once": "5a8bf44dd3b06437b70f1a09a11b2e0a04b63b8482c028860a6b0ba51a032e71",
+    "plans": "65e5767b5c0e050985ced5e6af68edf39fe76ef2cbe098d63bbce3dd0dbec543",
+    "final": "2ec15c6f80bb7937987d015cce905bf289fee89b30299300d7ccb35fea8ed12a"
+  },
+  "harness_sha256": "98cdb6b874a44bbc9d8c054196ef8a2aebddf0963b74fe847e72679b81e74eb7",
+  "source_sha256": {
+    "query.template": "8b65beb714f59d623fa31f32b805c6de0a4f71856974870d4be6d8749f1a46f8",
+    "run.py": "2f8f492bc2d5a8de6c0553d19437e5d1b4ff1eb93a3f0d0a1fd66c511d551685",
+    "versions.csv": "b4170e6016ca9a1f8fa785f18416a1ec05f4e809ad0b8240682082a4da23ae25",
+    "benchkit.py": "60bc8d69b304802083d149c526abf8eee287a331115cbd78462ea7953695b945",
+    "runner.py": "bcf791d843e04b337cacfbe2ecc3e89ca55ee9df18be8a921940f8310c153ae0",
+    "recording.py": "b331c9bb21ef9fcbe101f0b7c9ffb0c575bd293f44317c0a5799c16084ef709a",
+    "analysis.py": "b1bd097f20509b96faeae7485d262dc45e3f505b477cff2d7fc8b762ea499b90",
+    "QueryBench.java": "9de2f73ed6f6f451d9aba9a3cdcc2a3abd29f4db8b6006b2e5df05c5b7bbb270"
+  },
+  "environment": {
+    "date": "2026-10-22",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "cpu": "Apple M3",
+    "memory_bytes": "25769803776",
+    "java_home": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home",
+    "java": [
+      "openjdk version \"17.0.20.1\" 2026-08-18",
+      "OpenJDK Runtime Environment Temurin-17.0.20.1+1 (build 17.0.20.1+1)"
+    ],
+    "spark_submit": "4.2.0"
+  }
+}

@@ -1,0 +1,30 @@
+
+--- stderr ---
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/10/14 01:28:36 WARN Utils: Your hostname, localhost, resolves to a loopback address: 127.0.0.1; using 192.168.1.104 instead (on interface en0)
+26/10/14 01:28:36 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+26/10/14 01:28:37 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/10/14 01:28:37 INFO SparkContext: Running Spark version 4.2.0
+26/10/14 01:28:37 INFO SparkContext: OS info Mac OS X, 27.0.1, aarch64
+26/10/14 01:28:37 INFO SparkContext: Java version 17.0.20.1+1
+Setting Spark log level to "OFF".
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "executor-kill-mark-cleanup"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "SparkUI-43"
+Exception in thread "RemoteBlock-temp-file-clean-thread" Exception in thread "netty-rpc-env-timeout" Exception in thread "driver-heartbeater" Exception in thread "SparkUI-45" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "SparkUI-44" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1617)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+⚠️  Java went out of memory.
+If running locally, try adding --driver-memory 10G (or any quantity you need) between spark-submit and the RumbleDB jar in the command line to see if it fixes the problem. If running on a cluster, --executor-memory is the way to go.

@@ -1,0 +1,21 @@
+== after, getSize per put
+n=  16000  build    3.572 s  size=16000
+n=  32000  build   13.661 s  size=32000
+n=  64000  build   50.793 s  size=64000
+n= 128000  build  232.267 s  size=128000
+== after, no getSize
+n=  16000  build    3.269 s  size=16000
+n=  32000  build   13.035 s  size=32000
+n=  64000  build   54.441 s  size=64000
+n= 128000  build  224.128 s  size=128000
+== before, no getSize
+n=  16000  build    0.001 s  size=16000
+n=  32000  build    0.001 s  size=32000
+n=  64000  build    0.002 s  size=64000
+n= 128000  build    0.001 s  size=128000
+== before, getSize per put
+n=   1000  build    0.895 s  size=1000
+n=   2000  build    8.970 s  size=2000
+n=   4000  build   88.476 s  size=4000
+
+[exited with code 0]
